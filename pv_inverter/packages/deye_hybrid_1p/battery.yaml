@@ -118,6 +118,7 @@ sensor:
     address: 189
     value_type: holding
     icon: "mdi:battery"
+    device_class: battery
     optionsmap:
       "Charging": 0
       "Idle": 1
@@ -560,5 +561,6 @@ number:
     device_class: current
     value_type: U_WORD
     icon: "mdi:battery-charging-50"
+
 
 
